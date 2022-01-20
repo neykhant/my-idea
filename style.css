@@ -400,7 +400,11 @@ ul.paragraph li {
 .topnav {
   overflow: hidden;
   background-color: #bbb;
-  position: relative;
+  /* position: relative; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
 }
 
 .topnav #myLinks {
@@ -664,13 +668,25 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 920px) {
+
+  .contactList{
+    margin-top: 68px;
+  }
+
+  .tochigiContainer{
+    margin-top: 65px;
+  }
+  .japanContainer{
+    margin-top: 68px;
+  }
+
   .tochigiContainer .headTochigi{
     margin-top: 25px;
   }
 
-  .japanContainer {
+  /* .japanContainer {
     margin-top: 25px;
-}
+} */
 
   .headerContainer {
     /* position: relative; */
@@ -751,9 +767,12 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 900px) {
+  .headerImageLogo{
+    margin-top: 70px;
+  }
 
   .contactList{
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
   .body-container .container{
     padding-top: 30px;
@@ -1130,7 +1149,7 @@ input[type="submit"]:hover {
 @media (max-width: 500px) {
 
   .contactList{
-    margin-top: 5px;
+    margin-top: 45px;
 
   }
   .headerContainer {
@@ -1347,7 +1366,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 400px) {
   .contactList{
-    margin-top: 0px;
+    margin-top: 45px;
   }
   .headerKaigo {
     position: absolute;
