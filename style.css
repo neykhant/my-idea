@@ -412,7 +412,7 @@ ul.paragraph li {
 }
 
 .topnav p{
-  background-color: darkcyan;
+  /* background-color: darkcyan; */
   margin: 0;
   padding: 0;
   width: 55px;
@@ -455,7 +455,7 @@ ul.paragraph li {
 }
 
 .active {
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
   color: white;
 }
 
