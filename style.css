@@ -1,0 +1,1554 @@
+/* General CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+}
+
+#wrapper {
+  max-width: 1980px;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  /* background-color: green; */
+}
+
+/* Navigation CSS */
+
+.nav-container {
+  max-width: 1800px;
+  background: #f1f1f1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+z-index: 10;
+
+}
+
+.nav-container .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.nav-container h4 {
+  font-size: 30px;
+}
+
+ul.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+li.nav-item a {
+  text-decoration: none;
+  color: #000;
+  font-style: normal;
+  font-family: arial;
+  font-size: 16px;
+  /* background-color: blue; */
+  margin-right: 10px;
+  padding: 10px;
+}
+
+li.nav-item {
+  padding-left: 0px;
+  /* background-color: red; */
+}
+
+li.nav-item a:hover {
+  /* color: #39b54a;
+  border-bottom: 1px solid #39b54a;
+  padding-bottom: 5px; */
+}
+
+/* li.nav-item a:visited{
+  background-color: green;
+} */
+
+.activeD {
+  color: #39b54a;
+  border-bottom: 2px solid #39b54a;
+  padding-bottom: 10px;
+  /* padding-right: 40px; */
+}
+
+/* Home Banner CSS */
+
+.home-container {
+  width: 100%;
+  height: 500px;
+  /* background: url('images/home-bg.jpg') no-repeat center center;
+    background-size: cover; */
+  background-color: skyblue;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.home-container .container {
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.home-intro {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #111; */
+}
+
+.home-intro h2 {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.logo {
+  width: 40%;
+  background-color: skyblue;
+  display: inline-block;
+  position: relative;
+  top: 40px;
+}
+
+/* --new home */
+
+.headerContainer{
+  /* position: relative; */
+  margin-top: 130px;
+}
+
+.headerLogo .headerLogoImage{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.headerImageLogo {
+  /* position: relative; */
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  /* display: flex; */
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.headerKaigo {
+  position: absolute;
+  top: 24%;
+  left: 24%;
+  font-size: 30px;
+}
+
+.headerImageLogo .headerLogo{
+  width: 50%;
+  margin: 15px;
+  /* background-color: red; */
+}
+
+.headerLogo img{
+  /* position: absolute;
+    top: 100%;
+    right: 0%;*/
+
+    width: 50%; 
+}
+
+
+
+/* Home Body Style */
+
+.body-container {
+  padding-bottom: 40px;
+  /* margin-top: 80px; */
+}
+
+.body-container .container {
+  padding-top: 50px;
+}
+
+.body-first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-first div {
+  width: 45%;
+}
+
+.body-first div img {
+  width: 45%;
+  background: red;
+  display: block;
+  margin: 0 auto;
+}
+
+.body-first div a {
+  text-decoration: none;
+}
+
+.body-first div p,
+.body-second p {
+  text-align: center;
+  padding: 10px;
+  font-size: 22px;
+  color: red;
+}
+
+.body-second {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.body-second p {
+  text-align: center;
+  padding: 40px 0px !important;
+}
+
+.body-second div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.body-second div img {
+  width: 10%;
+}
+
+/* Footer CSS */
+
+footer {
+  background: #f6ff00;
+  width: 100%;
+  padding: 40px;
+}
+
+footer .container > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-div {
+  width: 30%;
+  padding: 80px 40px;
+  background: #999;
+  border-radius: 7px;
+}
+
+.footer-div p {
+  font-size: 23px;
+  text-align: center;
+}
+
+/* tochigi guide CSS */
+
+.tochigiContainer .headTochigi {
+  /* background-color: green; */
+  font-size: 30px;
+  margin-top: 120px;
+  /* margin-left: 20px; */
+}
+
+.map {
+  background: url("images/map_jp.png") no-repeat center;
+  height: 450px;
+  background-size: contain;
+  width: 100%;
+}
+.paragraph {
+  /* background-color: blue; */
+  border: 2px solid #000;
+  padding: 20px;
+  width: 45%;
+  margin: 0 auto;
+  font-size: 22px;
+}
+
+.paragraph .dot {
+  font-size: 20px;
+  font-weight: bold;
+}
+ul.paragraph li {
+  /* list-style: none; */
+}
+
+.paragraph li {
+  font-size: 20px;
+  padding: 3px;
+}
+
+.tochigiImageList P {
+  margin: 5px;
+  font-size: 18px;
+}
+
+.tochigiImagerow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.tochigiImagerow > div {
+  width: 24%;
+}
+
+.tochigiImagerow label {
+  font-size: 16px;
+}
+
+.tochigiImagerow img {
+  width: 100%;
+  height: 100%;
+}
+
+/* japan CSS */
+
+.japanContainer p {
+  /* background-color: sienna; */
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.japanContainer span {
+  /* background-color: slategrey; */
+  font-size: 22px;
+}
+.japanParagraph {
+  /* background-color: seashell; */
+  /* margin: 15px 0px; */
+  margin: 15px 20px;
+}
+
+.japanProfile{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* height: 200px; */
+  align-items: center;
+  margin: 15px;
+}
+
+.japanProfile > div{
+  width: 40%;
+  /* background-color: red; */
+}
+
+.japanProfile img{
+  height: 200px;
+  width:100%;
+}
+
+.japanContainer h4 {
+  /* background-color: blue; */
+  border: 2px solid #000;
+  width: 90%;
+  margin: 0 auto;
+  height: 250px;
+  text-align: center;
+  padding: 100px 0;
+  font-size: 25px;
+}
+
+.japanImageList{
+  background-color: #ddd;
+    width: 77%;
+    margin: 0 auto;
+}
+
+.japanImage {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.japanImage > div {
+  width: 30%;
+  /* border: 1px solid; */
+  /* height: 380px; */
+  margin: 30px 0px;
+}
+
+.japanImage img {
+  /* height: 377px; */
+  border: 1px solid #ccc;
+}
+
+/* for mobile navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #bbb;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav p{
+  background-color: darkcyan;
+  margin: 0;
+  padding: 0;
+  width: 55px;
+  }
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* .topnav a {
+  color: white;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  width: 50px;
+} */
+
+.topnav a.icon {
+  /* background: black; */
+  background: darkcyan;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.visit{
+  background-color: #ddd;
+  color: #000;
+}
+
+.active {
+  background-color: cadetblue;
+  color: white;
+}
+
+/* Contact CSS */
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 2px solid green;
+}
+
+input[type="email"]:focus {
+  border: 2px solid green;
+}
+
+textarea:focus {
+  border: 2px solid green;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.containerForm {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+}
+
+.contactContainer {
+  display: flex;
+}
+
+/* .contactList > div {
+  width: 100%;
+  margin-top: 20px;
+  margin: 20px auto;
+} */
+
+.contactList .contactFormImage {
+  width: 100%;
+  margin-top: 20px;
+  margin: 20px auto;
+}
+
+.contactList .contactFormList {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contactFormImage {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+/* .bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+} */
+
+
+.top-left-phone {
+  position: absolute;
+  top: 68px;
+  left: 16px;
+}
+
+.top-left-email {
+  position: absolute;
+  top: 108px;
+  left: 16px;
+}
+.top-left-address {
+  position: absolute;
+  top: 150px;
+  left: 16px;
+}
+
+/* .top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.contactFormImage img {
+  border-radius: 3px;
+}
+
+.contactList {
+  width: 100%;
+  margin-top: 130px;
+}
+
+/* .contactContainer .contactList img{
+  margin-top: 50px;
+  border: 1px solid #ccc;
+} */
+
+.contactContainer p {
+  margin: 10px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.japanContainer{
+  margin-top: 125px;
+}
+
+
+.contactTextAddress{
+
+}
+
+
+
+@media (max-width: 1200px) {
+  .body-container .container{
+    padding-top: 70px;
+  }
+  .paragraph {
+    /* background-color: blue; */
+    border: 1px solid #000;
+    padding: 20px;
+    width: 45%;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .headerKaigo {
+    position: absolute;
+    top: 12%;
+    left: 24%;
+    font-size: 30px;
+}
+
+  .logo {
+    width: 40%;
+    background-color: skyblue;
+    display: inline-block;
+    position: relative;
+    top: 15px;
+  }
+
+  .paragraph {
+    /* background-color: blue; */
+    border: 1px solid #000;
+    padding: 20px;
+    width: 55%;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 920px) {
+  .topnav {
+    display: none;
+  }
+}
+
+@media (max-width: 920px) {
+  .tochigiContainer .headTochigi{
+    margin-top: 25px;
+  }
+
+  .japanContainer {
+    margin-top: 25px;
+}
+
+  .headerContainer {
+    /* position: relative; */
+    margin-top: 30px;
+}
+
+  .nav-container {
+    display: none;
+  }
+
+  .home-intro {
+    width: 100%;
+    height: 270px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #111;
+  }
+  .home-container {
+    width: 100%;
+    height: 450px;
+    background-color: skyblue;
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+
+  .home-intro h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 1px;
+  }
+
+  .logo {
+    width: 40%;
+    background-color: skyblue;
+    display: inline-block;
+    position: relative;
+    top: 15px;
+  }
+
+  .paragraph {
+    /* background-color: blue; */
+    border: 2px solid #000;
+    padding: 20px;
+    width: 55%;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  .paragraph .dot {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 800px){
+  .top-left-contact_us{
+    display: none;
+  }
+
+  .top-left-phone {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+}
+
+.top-left-email {
+  position: absolute;
+  top: 48px;
+  left: 16px;
+}
+
+.top-left-address {
+  position: absolute;
+  top: 88px;
+  left: 16px;
+}
+
+}
+
+@media (max-width: 900px) {
+
+  .contactList{
+    margin-top: 30px;
+  }
+  .body-container .container{
+    padding-top: 30px;
+  }
+
+  .headerKaigo {
+    position: absolute;
+    /* top: 18%;
+    left: 16%; */
+    font-size: 27px;
+    top: 133px;
+}
+  .map {
+    background: url("images/map_jp.png") no-repeat center;
+    height: 440px;
+    background-size: contain;
+    width: 100%;
+  }
+
+  .paragraph {
+    /* background-color: blue; */
+    border: 1px solid #000;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+
+  .home-intro {
+    width: 100%;
+    height: 270px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #111;
+  }
+
+  .home-container {
+    width: 100%;
+    height: 450px;
+    background-color: skyblue;
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+
+  .home-intro h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 1px;
+  }
+
+  .logo {
+    width: 40%;
+    background-color: skyblue;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+  }
+
+  .contactContainer p {
+    margin: 25px 0 10px 0;
+    font-size: 27px;
+  }
+
+  /* .contactContainer .contactList img {
+    margin-top: 65px;
+    border: 1px solid #ccc;
+} */
+
+  /* .contactList > div {
+    width: 40%;
+    margin-top: 20px;
+    margin: 0 auto;
+  } */
+
+  .contactList .contactFormImage {
+    width: 100%;
+    margin-top: 20px;
+    margin: 20px auto;
+  }
+
+  .japanContainer p {
+    /* background-color: sienna; */
+    font-size: 23px;
+}
+.japanContainer span {
+  /* background-color: slategrey; */
+  font-size: 20px;
+}
+
+}
+
+@media (max-width: 800px){
+  .headerKaigo {
+    position: absolute;
+    /* top: 18%;
+    left: 16%; */
+    font-size: 22px;
+}
+}
+
+@media (max-width: 700px) {
+  .headerLogo img{
+    width: 50%;
+  }
+
+  .body-container{
+    /* margin-top: 40px; */
+  }
+  .headerKaigo {
+    position: absolute;
+    /* top: 18%;
+    left: 16%; */
+    font-size: 20px;
+}
+  .map {
+    background: url(images/map_jp.png) no-repeat center;
+    height: 300px;
+    background-size: contain;
+    width: 100%;
+  }
+
+  /* .paragraph li {
+    font-size: 13px;
+    padding: 2px;
+  } */
+
+  .paragraph {
+    /* background-color: blue; */
+    border: 1px solid #000;
+    padding: 20px;
+    width: 55%;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  .paragraph .dot {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .japanContainer h4 {
+    /* background-color: blue; */
+    border: 2px solid #000;
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+    text-align: center;
+    padding: 80px 0;
+    font-size: 22px;
+  }
+
+  .japanContainer p {
+    /* background-color: sienna; */
+    font-size: 20px;
+    margin-top: 23px;
+  }
+
+  .japanContainer span {
+    /* background-color: slategrey; */
+    font-size: 18px;
+  }
+
+  .japanImage > div {
+    width: 30%;
+    /* border: 1px solid; */
+    /* height: 280px; */
+    margin: 20px 0px;
+  }
+
+  .japanImage img {
+    /* height: 275px; */
+  }
+
+  .home-intro {
+    width: 100%;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #111;
+  }
+
+  .home-intro h2 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .logo {
+    width: 40%;
+    background-color: skyblue;
+    display: inline-block;
+    position: relative;
+    top: 35px;
+  }
+
+  .body-first div p,
+  .body-second p {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    color: red;
+  }
+
+  footer {
+    background: #f6ff00;
+    width: 100%;
+    padding: 40px;
+  }
+
+  .footer-div {
+    width: 30%;
+    padding: 25px 0px;
+    background: #999;
+    border-radius: 7px;
+  }
+
+  .footer-div p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .body-second {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .home-container {
+    width: 100%;
+    height: 400px;
+    background-color: skyblue;
+    padding-top: 60px;
+    padding-bottom: 28px;
+  }
+
+  .contactList .contactFormList{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .japanProfile {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* height: 200px; */
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.japanProfile > div {
+  width: 80%;
+  /* background-color: red; */
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+  .headerKaigo {
+    position: absolute;
+    font-size: 16px;
+    top: 11%;
+    left: 20%;
+}
+  .tochigiContainer .headTochigi {
+    font-size: 23px;
+    margin-top: 15px;
+  }
+
+  .paragraph li {
+    font-size: 14px;
+    padding: 3px;
+  }
+
+  .paragraph {
+    border: 1px solid #000;
+    padding: 18px;
+    width: 68%;
+    margin: 0 auto;
+  }
+
+  .map {
+    background: url("images/map_jp.png") no-repeat center;
+    height: 300px;
+    background-size: contain;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .japanImage {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .japanContainer h4 {
+    /* background-color: blue; */
+    border: 2px solid #000;
+    width: 80%;
+    margin: 0 auto;
+    height: 190px;
+    text-align: center;
+    padding: 80px 0;
+    font-size: 20px;
+  }
+
+  .japanContainer p {
+    /* background-color: sienna; */
+    font-size: 18px;
+    margin-top: 23px;
+  }
+
+  .japanContainer span {
+    /* background-color: slategrey; */
+    font-size: 17px;
+  }
+
+  .japanImage > div {
+    width: 70%;
+    /* border: 1px solid; */
+    /* height: 380px; */
+    margin: 20px auto;
+  }
+
+  .japanImage img {
+    /* height: 377px; */
+  }
+  .contactContainer p {
+    margin: 25px 0 10px 0;
+    font-size: 22px;
+  }
+
+  /* .contactContainer .contactList img {
+    margin-top: 65px;
+    border: 1px solid #ccc;
+} */
+
+  /* .contactList > div {
+    width: 47%;
+    margin-top: 20px;
+    margin: 0 auto;
+  } */
+
+  .contactList .contactFormImage {
+    width: 100%;
+    margin-top: 20px;
+    margin: 20px auto;
+  }
+
+  .top-left-contact_us{
+    display: none;
+  }
+
+  .top-left-phone{
+    display: none;
+  }
+  .top-left-email{
+    display: none;
+  }
+
+  .top-left-address{
+    display: none;
+  }
+
+  .contactList .contactFormList{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .contactList{
+    margin-top: 5px;
+
+  }
+  .headerContainer {
+    /* position: relative; */
+    margin-top: 25px;
+}
+
+  .home-intro h2 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .home-intro {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #111;
+  }
+
+  .home-container {
+    width: 100%;
+    height: 350px;
+    background-color: skyblue;
+    padding-top: 60px px;
+    padding-bottom: 28px;
+  }
+
+  .body-container .container {
+    padding-top: 20px;
+  }
+
+  .body-first {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .body-first div {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .body-first div img {
+    width: 45%;
+    background: red;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .body-first div p {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    color: red;
+  }
+
+  .body-second p {
+    text-align: center;
+    padding: 15px 0px !important;
+  }
+
+  .body-container {
+    padding-bottom: 25px;
+  }
+
+  .body-second {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .footer-div {
+    width: 30%;
+    padding: 20px 0px;
+    background: #999;
+    border-radius: 7px;
+  }
+
+  .footer-div p {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .tochigiContainer .headTochigi {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  .body-second div img {
+    width: 13%;
+  }
+
+  .map {
+    background: url(images/map_jp.png) no-repeat center;
+    height: 210px;
+    background-size: contain;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .tochigiImagerow {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .tochigiImagerow > div {
+    width: 45%;
+    margin-bottom: 32px;
+  }
+
+  /* .paragraph li {
+    font-size: 10px;
+  }
+
+  .paragraph {
+    border: 1px solid #000;
+    padding: 5px 20px;
+    width: 65%;
+    margin: 0 auto;
+  } */
+
+  .paragraph {
+    /* background-color: blue; */
+    border: 1px solid #000;
+    padding: 10px;
+    width: 68%;
+    margin: 0 auto;
+    font-size: 10px;
+  }
+  .paragraph .dot {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .tochigiImageList P {
+    margin: 5px;
+    font-size: 13px;
+  }
+
+  .tochigiImagerow label {
+    font-size: 12px;
+  }
+
+  .japanImage > div {
+    width: 65%;
+    /* border: 1px solid; */
+    /* height: 300px; */
+    margin: 20px auto;
+  }
+
+  .japanImage img {
+    /* height: 296px; */
+  }
+
+  .japanContainer p {
+    /* background-color: sienna; */
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .japanContainer h4 {
+    /* background-color: blue; */
+    /* background-color: blue; */
+    border: 2px solid #000;
+    width: 90%;
+    margin: 0 auto;
+    height: 160px;
+    text-align: center;
+    padding: 65px 0;
+    font-size: 18px;
+  }
+
+  .japanContainer span {
+    /* background-color: slategrey; */
+    font-size: 15px;
+  }
+
+  .contactList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  /* .contactList > div {
+    width: 100%;
+    margin-top: 20px;
+    margin: 0 auto;
+  } */
+
+  .contactList .contactFormImage {
+    width: 100%;
+    margin-top: 20px;
+    margin: 20px auto;
+  }
+
+  .contactContainer p {
+    margin: 0px 0 0px 0;
+    font-size: 20px;
+}
+
+  /* .contactContainer .contactList img {
+  margin-top: 40px;
+  border: 1px solid #ccc;
+  margin-bottom: 40px;
+} */
+}
+
+@media (max-width: 400px) {
+  .contactList{
+    margin-top: 0px;
+  }
+  .headerKaigo {
+    position: absolute;
+    font-size: 13px;
+    top: 12%;
+    left: 18%;
+}
+
+  /* .paragraph {
+    border: 1px solid #000;
+    padding: 5px 20px;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 10px;
+  } */
+
+  .paragraph {
+    /* background-color: blue; */
+    border: 1px solid #000;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 10px;
+  }
+  .paragraph .dot {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .japanContainer p {
+    /* background-color: sienna; */
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .japanContainer span {
+    /* background-color: slategrey; */
+    font-size: 14px;
+}
+
+  .home-intro h2 {
+    font-size: 15px;
+    text-align: center;
+    /* padding-top: 10px; */
+    padding: 20px;
+  }
+
+  .body-first div p {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color: red;
+  }
+
+  .home-container {
+    width: 100%;
+    height: 190px;
+    background-color: skyblue;
+    /* padding-top: 60px px;
+    padding-bottom: 0px; */
+  }
+
+  .home-container .container {
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .body-first div img {
+    width: 40%;
+    background: red;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .home-intro {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #111;
+  }
+
+  .logo {
+    width: 40%;
+    background-color: skyblue;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+  }
+  .tochigiImagerow > div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .tochigiImagerow {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 300px) {
+  .tochigiContainer .headTochigi {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .map {
+    background: url(images/map_jp.png) no-repeat center;
+    height: 145px;
+    background-size: contain;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .paragraph li {
+    font-size: 8px;
+    padding: 0px;
+  }
+
+  .paragraph {
+    border: 1px solid #000;
+    padding: 12px;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .tochigiImageList P {
+    margin: 5px;
+    font-size: 12px;
+  }
+
+  .tochigiImagerow {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .tochigiImagerow > div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .tochigiImagerow label {
+    font-size: 11px;
+  }
+
+  .japanContainer p {
+    /* background-color: sienna; */
+    font-size: 13px;
+    margin-top: 15px;
+  }
+
+  .japanContainer h4 {
+    /* background-color: blue; */
+    border: 2px solid #000;
+    width: 85%;
+    margin: 0 auto;
+    height: 130px;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 16px;
+  }
+
+  .japanContainer span {
+    /* background-color: slategrey; */
+    font-size: 15px;
+  }
+
+  .japanImage > div {
+    width: 70%;
+    /* border: 1px solid; */
+    /* height: 334px; */
+    margin: 20px auto;
+  }
+
+  .japanImage img {
+    /* height: 330px; */
+  }
+}
+
+@media (max-width: 350px) {
+  .map {
+    background: url(images/map_jp.png) no-repeat center;
+    height: 170px;
+    background-size: contain;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .paragraph {
+    border: 1px solid #000;
+    /* padding: 14px; */
+    padding: 1px 15px;
+    width: 83%;
+    margin: 0 auto;
+  }
+}
