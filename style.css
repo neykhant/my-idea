@@ -670,7 +670,7 @@ input[type="submit"]:hover {
 @media (max-width: 920px) {
 
   .contactList{
-    margin-top: 68px;
+    margin-top: 70px;
   }
 
   .tochigiContainer{
@@ -690,7 +690,7 @@ input[type="submit"]:hover {
 
   .headerContainer {
     /* position: relative; */
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
   .nav-container {
@@ -980,7 +980,7 @@ input[type="submit"]:hover {
   footer {
     background: #f6ff00;
     width: 100%;
-    padding: 40px;
+    padding: 20px;
   }
 
   .footer-div {
@@ -1225,13 +1225,13 @@ input[type="submit"]:hover {
 
   .footer-div {
     width: 30%;
-    padding: 20px 0px;
+    padding: 10px 0px;
     background: #999;
     border-radius: 7px;
   }
 
   .footer-div p {
-    font-size: 13px;
+    font-size: 8px;
     text-align: center;
   }
 
